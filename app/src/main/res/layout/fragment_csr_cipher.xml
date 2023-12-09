@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#209AAA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caesar Cipher"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="#504646"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/inptmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtss"
+        android:hint="Enter text to encrypt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/inptkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtss"
+        android:hint="Enter Key (0-25)"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/enptbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/rslt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtss"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know More about Caesar Cipher"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"
+        />
+
+</LinearLayout>

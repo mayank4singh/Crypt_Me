@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+   <item
+       android:id="@+id/encryption"
+       android:title="Encryption"
+       android:icon="@drawable/en_lock"/>
+    <item
+        android:id="@+id/decryption"
+        android:title="Decryption"
+        android:icon="@drawable/unlock"/>
+    <item
+        android:id="@+id/About"
+        android:title="About"
+        android:icon="@drawable/person"/>
+</menu>

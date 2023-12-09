@@ -1,0 +1,15 @@
+<!-- btn_bg.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#1565C0"/> <!-- Background color when pressed -->
+            <corners android:radius="8dp"/> <!-- Corner radius -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#209AAA"/> <!-- Default background color -->
+            <corners android:radius="8dp"/> <!-- Corner radius -->
+        </shape>
+    </item>
+</selector>

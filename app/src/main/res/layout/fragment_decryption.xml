@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7997A1"
+    android:id="@+id/container"
+    android:fitsSystemWindows="true"
+    tools:context=".decrypt.DecryptionFrag">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        android:text="Choose the decryption technique "
+        android:textAlignment="center"
+        android:textColor="#CDD3D8"
+        android:textSize="30dp"
+        tools:textAlignment="center" />
+
+            <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/csr"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text=" Caesar Cipher"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <RadioButton
+                    android:id="@+id/vgnr"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" Vigenère Cipher"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <RadioButton
+                    android:id="@+id/hill"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" AES"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <RadioButton
+                    android:id="@+id/vernam"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Vernam Cipher"
+                    android:textColor="#000"
+                    android:textSize="25dp"/>
+        </RadioGroup>
+
+</FrameLayout>

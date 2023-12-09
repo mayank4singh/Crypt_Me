@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vigenère Cipher"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="#504646"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/editTextEncrypted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtss"
+        android:hint="Enter text to encrypt"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtss"
+        android:hint="Enter Keyword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+
+    <Button
+        android:id="@+id/buttonDecrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewDecrypted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtss"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know More about Vigenère Cipher"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"
+        />
+</LinearLayout>
