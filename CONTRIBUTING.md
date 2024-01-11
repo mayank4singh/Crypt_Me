@@ -1,4 +1,4 @@
-# Contributing to CryprtMe
+# Contributing to CryptMe
 Thank you for your interest in contributing to Crypt Me. We welcome contributions from the community to improve and grow this project. Before getting started, please take a moment to read through the following guidelines.
 
 ## Code of Conduct
